@@ -19,7 +19,7 @@
             <%-- However user and notes has been linked --%>
             <section class="button-container">
                 <div class="button-1-2">
-                    <form action="/">
+                    <form action="/grades">
                         <input type="submit" value="See grade progress">
                     </form>
                     <form action="/">
