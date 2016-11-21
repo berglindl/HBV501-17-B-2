@@ -1,3 +1,4 @@
+//@@ -0,0 +1,76 @@
 package project.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -35,7 +36,7 @@ public class GradesController {
         model.addAttribute("grades",new Grades());
 
         // Here we get all the Postit Notes (in a reverse order) and add them to the model
-        model.addAttribute("grades",gradesService.findAllReverseOrder());
+        model.addAttribute("manyGrades",gradesService.findAllReverseOrder());
 
         // Return the view
         return "Grades";
@@ -55,7 +56,7 @@ public class GradesController {
         gradesService.save(grades);
 
         // Here we get all the Postit Notes (in a reverse order) and add them to the model
-        model.addAttribute("grades", gradesService.findAllReverseOrder());
+        model.addAttribute("manyGrades", gradesService.findAllReverseOrder());
 
         // Add a new Postit Note to the model for the form
         // If you look at the form in PostitNotes.jsp, you can see that we
@@ -72,5 +73,15 @@ public class GradesController {
     // based on the data that we have.
     // This method finds all Postit Notes posted by someone with the requested {name}
     // and returns a list with all those Postit Notes.
+    @RequestMapping(value="/grades/{subject}", method = RequestMethod.GET)
+    public String getGradesFromSubject(@PathVariable String subject, Model model){
+        //Get all notes with this title and add them to the model
+        model.addAttribute("manyGrades", gradesService.findBySubject(subject));
 
+        //Add a new note to the model for the form
+        //Is referenced in the form in Notes.jsp via 'theNotes'
+        model.addAttribute("grades", new Grades());
+        //Return the view
+        return "Grades";
+    }
 }
