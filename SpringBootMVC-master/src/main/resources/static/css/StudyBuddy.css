@@ -164,6 +164,13 @@ tr:hover{
 	font-size: 16px;
 }
 
+.calendar-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 350px;
+}
+
 /* Text */
 
 .header-1 {
@@ -192,5 +199,91 @@ tr:hover{
 /* Extra */
 
 .padding-lol {
-	padding: 0px 520px 0px 520px;
+	padding: 0px 440px 0px 440px;
+}
+
+/* Calendar*/
+
+.month {
+    padding: 70px 25px;
+    width: 100%;
+    background-color: #c2d4d8;
+}
+
+.month ul {
+    margin: 20px;
+}
+
+.month ul li {
+    color: #34282C;
+    letter-spacing: 3px;
+
+}
+.prev-month {
+	float: left;
+    padding-top: 10px;
+}
+
+.next-month {
+    float: right;
+    padding-top: 10px;
+}
+
+.now-month{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+}
+
+.this-year{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 28px;
+}
+
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #cccdd2;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+}
+
+.days {
+    padding: 10px;
+}
+
+.this-month {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+.this-month:hover {
+	background-color: #cccdd2;
+}
+
+.not-this-month {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: #D3D3D3;
+}
+
+.not-this-month:hover{
+	background-color: #cccdd2;
+	color: #34282C;
 }

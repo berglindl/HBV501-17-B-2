@@ -17,6 +17,8 @@
             <p class="navigation">|</p> 
             <a class="navigation" href="/grades">See grades</a> 
             <p class="navigation">|</p> 
+            <a class="navigation" href="/calendar">See calendar</a> 
+            <p class="navigation">|</p> 
             <a class="navigation" href="/">Go back</a> 
         </div>
         <div class="user-container">
@@ -32,13 +34,5 @@
 				<p class="user-info-2">${course}</p>
 			</div>
 		</section>
-		<section class="button-container">
-			<div class="button-1-2">
-				<form action="/">
-                    <input type="submit" value="Go back">
-                </form>
-            </div>
-        </section>
     </body>
-
 </html>

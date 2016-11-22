@@ -7,16 +7,18 @@
 <html lang="en">
 
     <head>
-        <title>Grades</title>
-		<link rel="stylesheet" type="text/css" href="<c:url value="/css/StudyBuddy.css"/>"/>
+      <title>Grades</title>
+		  <link rel="stylesheet" type="text/css" href="<c:url value="/css/StudyBuddy.css"/>"/>
     </head>
     <body>
-		<div class="header-container">
+		  <div class="header-container">
             <h2 class="header-1">StudyBuddy</h2>
             <p class="padding-lol"></p>
             <a class="navigation" href="/notes">See notes</a> 
             <p class="navigation">|</p> 
             <a class="navigation" href="/user">See user</a> 
+            <p class="navigation">|</p> 
+            <a class="navigation" href="/calendar">See calendar</a> 
             <p class="navigation">|</p> 
             <a class="navigation" href="/">Go back</a> 
         </div>

@@ -15,13 +15,12 @@
         </div>
         <div class="start-screen-container">
             <h1>Welcome back!</h1>
-            <%-- Only thing left to link now is calendar --%>
             <section class="button-container">
                 <div class="button-1-2">
                     <form action="/grades">
                         <input type="submit" value="See grade progress">
                     </form>
-                    <form action="/">
+                    <form action="/calendar">
                         <input type="submit" value="See calendar">
                     </form>
                 </div>

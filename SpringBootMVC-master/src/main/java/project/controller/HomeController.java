@@ -57,4 +57,9 @@ public class HomeController {
         // Look at the User.jsp file in /main/webapp/WEB-INF/jsp/ to see how the data is accessed
         return "User";
     }
+
+    @RequestMapping(value ="/calendar", method = RequestMethod.GET)
+    public String calendar(){
+        return "Calendar";
+    }
 }
