@@ -5,19 +5,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import project.service.StringManipulationService;
 
 @Controller
 public class HomeController {
-
-    // Instance Variables
-    StringManipulationService stringService;
-
-    // Dependency Injection
-    @Autowired
-    public HomeController(StringManipulationService stringService) {
-        this.stringService = stringService;
-    }
 
     // Request mapping is the path that you want to map this method to
     // In this case, the mapping is the root "/", so when the project
@@ -39,8 +29,7 @@ public class HomeController {
 
         // Here we will show how to add attributes to a model and send it to the view
 
-        // Since this small example is for a user, let's create some attributes
-        // that users might usually have in a system
+        // Some attributes for the user
         String fname = "John";
         String lname = "Doe";
         String email = "jod11@hi.is";
@@ -54,10 +43,10 @@ public class HomeController {
 
         // By adding attributes to the model, we can pass information from the controller
         // to the view (the .jsp file).
-        // Look at the User.jsp file in /main/webapp/WEB-INF/jsp/ to see how the data is accessed
         return "User";
     }
 
+    //Just to access the calendar...
     @RequestMapping(value ="/calendar", method = RequestMethod.GET)
     public String calendar(){
         return "Calendar";

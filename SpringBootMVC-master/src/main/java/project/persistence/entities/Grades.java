@@ -3,7 +3,7 @@ package project.persistence.entities;
 import javax.persistence.*;
 
 /*
-	This is the class for the Notes themselves
+	This is the class for the Grades themselves
 	The system generates a table schema based on this class for this entity
 */
 @Entity
@@ -19,7 +19,7 @@ public class Grades {
 	private int projectnum;
 	private double grade;
 
-	//Empty so we can create empty Notes to add to our model to use with our form
+	//Empty so we can create empty Grades to add to our model to use with our form
 	public Grades(){
 
 	}
@@ -62,9 +62,7 @@ public class Grades {
 		this.grade = grade;
 	}
 	
-	
-
-	//Easy debugging gera seinna
+	//Easy debugging
 	@Override
 	public String toString(){
 		return String.format(

@@ -37,7 +37,7 @@ public class GradesServiceImplementation implements GradesService {
 
 	@Override
 	public List<Grades> findAllReverseOrder(){
-		//First get all the notes
+		//First get all the grades
 		List<Grades> grades = repository.findAll();
 		//Then reverse the list
 		Collections.reverse(grades);
