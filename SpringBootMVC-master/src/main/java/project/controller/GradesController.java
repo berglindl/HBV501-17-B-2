@@ -52,6 +52,7 @@ public class GradesController {
 
         // Save the Grade that we received from the form
         gradesService.save(grades);
+       // gradesService.delete(grades);
 
         // Here we get all the Grades (in a reverse order) and add them to the model
         model.addAttribute("manyGrades", gradesService.findAllReverseOrder());
