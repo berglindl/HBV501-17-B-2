@@ -7,6 +7,7 @@
 	font-family: Gill Sans MT;
 }
 
+
 body {
 	background-color: #f2efe8;
 }
@@ -159,7 +160,6 @@ tr:hover{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	height: 50px;
 	margin-left: 30px;
 	font-size: 16px;
 }
