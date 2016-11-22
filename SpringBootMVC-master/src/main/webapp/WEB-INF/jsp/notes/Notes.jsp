@@ -11,7 +11,13 @@
 	</head>
 	<body>
 		<div class="header-container">
-            <h2 class="header-1">StudyBuddy</h1>
+            <h2 class="header-1">StudyBuddy</h2>
+            <p class="padding-lol"></p>
+            <a class="navigation" href="/grades">See grades</a> 
+            <p class="navigation">|</p> 
+            <a class="navigation" href="/user">See user</a> 
+            <p class="navigation">|</p> 
+            <a class="navigation" href="/">Go back</a> 
         </div>
 		<div class="notes-container">
 			<h1>Notes</h1>

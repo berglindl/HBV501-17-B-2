@@ -11,12 +11,11 @@
     </head>
     <body>
         <div class="header-container">
-            <h2 class="header-1">StudyBuddy</h1>
+            <h2 class="header-1">StudyBuddy</h2>
         </div>
         <div class="start-screen-container">
             <h1>Welcome back!</h1>
-            <%-- We have yet to link the buttons and do the forms properly, currently just a placeholder--%>
-            <%-- However user and notes has been linked --%>
+            <%-- Only thing left to link now is calendar --%>
             <section class="button-container">
                 <div class="button-1-2">
                     <form action="/grades">

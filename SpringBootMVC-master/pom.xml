@@ -62,7 +62,5 @@
             </plugin>
         </plugins>
     </build>
-
-    <mvc:resources mapping="/resources/**" location="/resources/" />
     
 </project>
