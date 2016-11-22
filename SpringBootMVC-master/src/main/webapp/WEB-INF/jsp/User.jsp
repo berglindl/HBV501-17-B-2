@@ -18,7 +18,7 @@
 		</div>
 		<section class="user-and-image-container">
 			<div class="image-container">
-				<p> ** Image ** </p>
+				<img src="/resources/static/images/elmo.gif" />
 			</diV>
 			<div class="user-info-container">
 				<p class="user-info-1">Name: </p>
