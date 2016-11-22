@@ -44,6 +44,7 @@
                  <input type="submit" VALUE="Submit"/>
              </sf:form>
         </div>
+    <section>    
     <div class="inserted-grades-container">
         <c:choose>
             <c:when test="${not empty grades}">
@@ -77,6 +78,6 @@
             </c:otherwise>
         </c:choose>
     </div>
-
+	</section>
     </body>
 </html>
