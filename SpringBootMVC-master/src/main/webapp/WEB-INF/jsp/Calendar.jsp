@@ -18,7 +18,7 @@
             <p class="navigation">|</p> 
             <a class="navigation" href="/user">See user</a> 
             <p class="navigation">|</p> 
-            <a class="navigation" href="/">Go back</a> 
+            <a class="navigation" href="/index">Go back</a> 
         </div>
         <div class="calendar-container">
             <div class="month">

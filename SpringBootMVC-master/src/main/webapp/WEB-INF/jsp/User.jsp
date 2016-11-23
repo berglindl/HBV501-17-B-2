@@ -19,7 +19,7 @@
             <p class="navigation">|</p> 
             <a class="navigation" href="/calendar">See calendar</a> 
             <p class="navigation">|</p> 
-            <a class="navigation" href="/">Go back</a> 
+            <a class="navigation" href="/index">Go back</a> 
         </div>
         <div class="user-container">
 			<h1>User Information</h1>
