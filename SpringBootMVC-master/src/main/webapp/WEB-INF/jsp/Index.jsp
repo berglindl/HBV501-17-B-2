@@ -34,5 +34,12 @@
                 </div>
             </section>
         </div>
+        <section class="button-container">
+            <div class="button-1-2">
+                <form action="/">
+                    <input type="submit" value="Log Out">
+                </form>
+            </div>
+        </section>
     </body>
 </html>
