@@ -33,7 +33,7 @@
                    </tr>
                    <tr>
                        <td>Project number:</td>
-                       <td><sf:textarea path="projectnum" type="text" placeholder=""/></td>
+                       <td><sf:input path="projectnum" type="text" placeholder=""/></td>
                    </tr>
                    <tr>
                        <td>Grade:</td>
