@@ -17,11 +17,11 @@ public class HomeController {
     public String home(){
 
         // The string "Index" that is returned here is the name of the view
-        // (the Index.jsp file) that is in the path /main/webapp/WEB-INF/jsp/
-        // If you change "Index" to something else, be sure you have a .jsp
-        // file that has the same name
+        // (the Login.jsp file) that is in the path /main/webapp/WEB-INF/jsp/
+
         return "Login";
     }
+    
     @RequestMapping(value = "/index", method = RequestMethod.POST)
     public String index(){
 
